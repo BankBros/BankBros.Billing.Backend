@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="4.9.4" />
+    <PackageReference Include="Autofac.Extras.DynamicProxy" Version="4.5.0" />
+    <PackageReference Include="FluentValidation" Version="8.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="BankBros.Backend.Business">
+      <HintPath>..\..\BankBros.Backend\BankBros.Backend.Business\bin\Debug\netstandard2.1\BankBros.Backend.Business.dll</HintPath>
+    </Reference>
+    <Reference Include="BankBros.Backend.Core">
+      <HintPath>..\..\BankBros.Backend\BankBros.Backend.Business\bin\Debug\netstandard2.1\BankBros.Backend.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="BankBros.Backend.DataAccess">
+      <HintPath>..\..\BankBros.Backend\BankBros.Backend.Business\bin\Debug\netstandard2.1\BankBros.Backend.DataAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="BankBros.Backend.Entity">
+      <HintPath>..\..\BankBros.Backend\BankBros.Backend.Business\bin\Debug\netstandard2.1\BankBros.Backend.Entity.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
